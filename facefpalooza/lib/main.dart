@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       valueListenable: _themeNotifier,
       builder: (context, themeMode, child) {
         return MaterialApp(
-          title: 'Seu Nome Completo', // Alterado para o nome completo
+          title: 'Vinícius Kanashiro', // Alterado para o nome completo
           // Para remover a faixa de debug do app
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
           // O tema será definido pelo botão
           themeMode: themeMode,
           home: MyHomePage(
-            title: 'Seu Nome Completo', // Alterado para o nome completo
+            title: 'Vinícius Kanashiro', // Alterado para o nome completo
             themeNotifier: _themeNotifier,
           ),
         );
